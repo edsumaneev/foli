@@ -2246,12 +2246,25 @@
     
   </ul>
 </section>
-<section class="contactus">
+<section class="contactus feedback">
   <div class="contactus__cover"></div>
   <div class="contactus__wrapper container">
     <h2 class="title title--white title--projects">Are you interested in one of our projects?</h2>
     <p class="contactus__subtitle">Call us or leave your particulars and we will contact you as soon as possible!</p>
-    <button class="button button--filled button--projects" type="button">Contact us</button>
+    <form class="feedback__form" action="#" method="POST">
+      <input class="feedback__name" type="text" id="name" name="name" placeholder="Name">
+      <label for="name"></label>
+      <input class="feedback__phone" type="tel" id="phone" name="phone" placeholder="Phone"
+        onkeyup="this.value = this.value.replace(/[^\d]/g,'')">
+      <label for="phone"></label>
+      <input class="feedback__email" type="email" id="email" name="email" placeholder="E-mail">
+      <label for="email"></label>
+      <textarea class="feedback__text" id="text" name="text" placeholder="Message"></textarea>
+      <label for="text"></label>
+      <button class="button button--filled button--projects" type="submit"><span class="button--desk">Contact
+          us</span><span class="button--mob">Get information</span>
+      </button>
+    </form>
   </div>
 </section>
 <footer class="footer">

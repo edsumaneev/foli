@@ -8424,6 +8424,8 @@ img.mfp-img {
   line-height: unset;
   font-size: 0; }
 
+.feedback__text,
+.feedback__email,
 .feedback__name,
 .feedback__phone {
   padding: 16px 0 16px 16px;
@@ -8434,17 +8436,23 @@ img.mfp-img {
   background-color: transparent;
   border: 1px solid #ffffff; }
   @media (max-width: 48rem) {
+    .feedback__text,
+    .feedback__email,
     .feedback__name,
     .feedback__phone {
       margin-bottom: 8px;
-      width: 80%; } }
+      width: 100%; } }
   @media (max-width: 700px) {
+    .feedback__text,
+    .feedback__email,
     .feedback__name,
     .feedback__phone {
       padding: 15px 0 14px 15px;
       margin-right: 0;
       width: 100%; } }
 
+.feedback__text:focus,
+.feedback__email:focus,
 .feedback__name:focus,
 .feedback__phone:focus,
 .feedback__name:active,
@@ -8452,14 +8460,16 @@ img.mfp-img {
   outline: none;
   border: 1px solid #cfa55b; }
 
-.feedback__name::-moz-placeholder, .feedback__phone::-moz-placeholder {
+.feedback__text::-moz-placeholder, .feedback__email::-moz-placeholder, .feedback__name::-moz-placeholder, .feedback__phone::-moz-placeholder {
   color: #ffffff;
   font-size: 0.875rem; }
 
-.feedback__name:-ms-input-placeholder, .feedback__phone:-ms-input-placeholder {
+.feedback__text:-ms-input-placeholder, .feedback__email:-ms-input-placeholder, .feedback__name:-ms-input-placeholder, .feedback__phone:-ms-input-placeholder {
   color: #ffffff;
   font-size: 0.875rem; }
 
+.feedback__text::placeholder,
+.feedback__email::placeholder,
 .feedback__name::placeholder,
 .feedback__phone::placeholder {
   color: #ffffff;
@@ -8577,6 +8587,21 @@ img.mfp-img {
 
 .button--projects {
   width: 350px; }
+  @media (max-width: 48rem) {
+    .button--projects {
+      width: 100%; } }
+
+.button--mob {
+  display: none; }
+  @media (max-width: 48rem) {
+    .button--mob {
+      display: block; } }
+
+.button--desk {
+  display: block; }
+  @media (max-width: 48rem) {
+    .button--desk {
+      display: none; } }
 
 .modal__close {
   position: absolute;
@@ -9341,9 +9366,14 @@ img.mfp-img {
 
 .contactus {
   position: relative;
+  padding: 0;
+  margin-bottom: 0;
   height: 298px;
   background-color: #282b3a;
   overflow: hidden; }
+  @media (max-width: 48rem) {
+    .contactus {
+      height: 482px; } }
 
 .contactus__cover {
   z-index: 2;
@@ -9360,6 +9390,42 @@ img.mfp-img {
   padding: 50px 0;
   color: #ffffff;
   text-align: center; }
+  @media (max-width: 48rem) {
+    .contactus__wrapper {
+      padding: 32px 15px; } }
 
 .contactus__subtitle {
   margin-bottom: 44px; }
+  @media (max-width: 48rem) {
+    .contactus__subtitle {
+      display: none; } }
+
+.contactus .feedback__email,
+.contactus .feedback__name,
+.contactus .feedback__phone,
+.contactus .feedback__text {
+  display: none; }
+  @media (max-width: 48rem) {
+    .contactus .feedback__email,
+    .contactus .feedback__name,
+    .contactus .feedback__phone,
+    .contactus .feedback__text {
+      display: block;
+      margin: 0 15px 8px 15px;
+      width: 100%; } }
+
+.contactus .feedback__text {
+  margin-bottom: 16px;
+  max-height: 100px; }
+
+.contactus .feedback__text::-moz-placeholder {
+  color: #ffffff;
+  font-size: 0.875rem; }
+
+.contactus .feedback__text:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 0.875rem; }
+
+.contactus .feedback__text::placeholder {
+  color: #ffffff;
+  font-size: 0.875rem; }
