@@ -8591,18 +8591,6 @@ img.mfp-img {
     .button--projects {
       width: 100%; } }
 
-.button--mob {
-  display: none; }
-  @media (max-width: 48rem) {
-    .button--mob {
-      display: block; } }
-
-.button--desk {
-  display: block; }
-  @media (max-width: 48rem) {
-    .button--desk {
-      display: none; } }
-
 .modal__close {
   position: absolute;
   right: 25px;
@@ -9431,6 +9419,26 @@ img.mfp-img {
 .contactus .feedback__text::placeholder {
   color: #ffffff;
   font-size: 0.875rem; }
+
+.introduction {
+  padding-top: 45px;
+  margin-bottom: 100px; }
+  @media (max-width: 62rem) {
+    .introduction {
+      padding-top: 156px; } }
+
+.introduction__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 420px; }
+
+.introduction__img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .contacts__switch-en,
 .contacts__switch-IL {
