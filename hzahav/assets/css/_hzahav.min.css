@@ -9511,4 +9511,5 @@ img.mfp-img {
 
 @media (max-width: 62rem) {
   .hamburger--rtl {
-    margin-left: 18px; } }
+    margin-left: 18px;
+    margin-right: 0; } }
