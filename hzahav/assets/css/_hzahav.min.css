@@ -8602,10 +8602,13 @@ img.mfp-img {
   margin-top: -18px; }
   @media (max-width: 62rem) {
     .header__logo {
-      filter: brightness(10);
       order: 2;
       margin-top: 0;
       transform: scale(1.35); } }
+
+@media (max-width: 62rem) {
+  .header__logo-changed {
+    filter: brightness(10); } }
 
 .header__logo.white {
   z-index: 5;
