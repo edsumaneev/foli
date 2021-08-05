@@ -8628,11 +8628,9 @@ img.mfp-img {
     .footer__wrapper {
       flex-direction: column; } }
 
-.footer__logo {
-  filter: invert(10) brightness(5); }
-  @media (max-width: 36rem) {
-    .footer__logo {
-      transform: scale(1.3); } }
+@media (max-width: 36rem) {
+  .footer__logo {
+    transform: scale(1.3); } }
 
 .button {
   padding: 17px 0;
@@ -8662,7 +8660,10 @@ img.mfp-img {
   transition: ease-in-out 0.3s; }
 
 .button__header {
-  width: 160px; }
+  display: block;
+  box-sizing: border-box;
+  width: 160px;
+  text-align: center; }
   @media (max-width: 62rem) {
     .button__header {
       display: none; } }
@@ -10109,6 +10110,153 @@ img.mfp-img {
   @media (max-width: 36rem) {
     .chess__subtitle {
       font-size: 1.5rem; } }
+
+.ourcontacts {
+  padding-top: 150px;
+  margin-bottom: 100px; }
+  @media (max-width: 62rem) {
+    .ourcontacts {
+      margin-bottom: 50px;
+      padding-top: 130px; } }
+
+.ourcontacts__descr {
+  display: flex;
+  justify-content: space-between;
+  min-height: 663px; }
+  @media (max-width: 62rem) {
+    .ourcontacts__descr {
+      flex-direction: column;
+      justify-content: center;
+      min-height: unset; } }
+
+.ourcontacts__text {
+  max-width: 330px; }
+  @media (max-width: 62rem) {
+    .ourcontacts__text {
+      order: 2;
+      max-width: 340px; } }
+
+.ourcontacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px; }
+
+.ourcontacts__mail,
+.ourcontacts__post,
+.ourcontacts__tel {
+  font-size: 18px;
+  font-weight: 800; }
+  .ourcontacts__mail svg,
+  .ourcontacts__post svg,
+  .ourcontacts__tel svg {
+    fill: #595a5f; }
+
+.ourcontacts__mail:hover svg,
+.ourcontacts__post:hover svg,
+.ourcontacts__tel:hover svg {
+  fill: currentColor; }
+
+.ourcontacts__mail,
+.ourcontacts__post {
+  margin-bottom: 8px; }
+
+.ourcontacts__map {
+  position: relative;
+  width: 100%;
+  max-height: 360px; }
+  @media (max-width: 62rem) {
+    .ourcontacts__map {
+      order: 1;
+      max-height: unset;
+      margin-bottom: 16px; } }
+
+.ourcontacts__map iframe {
+  position: absolute;
+  right: -475px; }
+  @media (max-width: 62rem) {
+    .ourcontacts__map iframe {
+      position: relative;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 360px;
+      -o-object-fit: cover;
+         object-fit: cover; } }
+
+.ourcontacts__title {
+  text-align: left;
+  margin-bottom: 4px; }
+  [dir="rtl"] .ourcontacts__title {
+    text-align: right; }
+  @media (max-width: 62rem) {
+    .ourcontacts__title {
+      text-align: center; } }
+
+.ourcontacts__subtitle {
+  margin-bottom: 16px;
+  color: #282b3a; }
+
+.ourcontacts__item {
+  margin-bottom: 16px; }
+
+.ourcontacts__feedback {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start; }
+  @media (max-width: 62rem) {
+    .ourcontacts__feedback {
+      flex-direction: column;
+      width: 100%; } }
+
+.ourcontacts__desktop {
+  display: flex;
+  flex-direction: column; }
+  @media (max-width: 62rem) {
+    .ourcontacts__desktop {
+      display: none; } }
+
+.ourcontacts__mobile {
+  display: none; }
+  @media (max-width: 62rem) {
+    .ourcontacts__mobile {
+      display: block;
+      text-align: center; } }
+
+.ourcontacts__form {
+  text-align: left; }
+  @media (max-width: 62rem) {
+    .ourcontacts__form {
+      width: 100%;
+      text-align: center; } }
+
+.ourcontacts.feedback {
+  padding: 50px 0;
+  margin-bottom: 0; }
+  @media (max-width: 62rem) {
+    .ourcontacts.feedback {
+      padding: 32px 0; } }
+
+.ourcontacts .feedback__form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  min-width: unset;
+  width: 350px; }
+  @media (max-width: 62rem) {
+    .ourcontacts .feedback__form {
+      margin-right: 0;
+      width: 100%; } }
+
+.ourcontacts .feedback__email,
+.ourcontacts .feedback__name,
+.ourcontacts .feedback__phone,
+.ourcontacts .feedback__text {
+  margin-bottom: 8px;
+  width: 100%; }
+
+.ourcontacts .feedback__text {
+  min-height: 142px; }
 
 .contacts__switch-en,
 .contacts__switch-IL {
