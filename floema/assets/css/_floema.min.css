@@ -8372,7 +8372,8 @@ img {
       right: 60px; } }
 
 .social__link {
-  margin-bottom: 19px; }
+  margin-bottom: 19px;
+  font-size: 0; }
 
 .social__link svg {
   fill: #3f3f3f; }
@@ -9578,7 +9579,7 @@ img.mfp-img {
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 20%;
+  padding-top: 10%;
   overflow-y: auto; }
 
 .modal:target {
