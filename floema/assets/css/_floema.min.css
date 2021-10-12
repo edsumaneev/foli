@@ -8449,9 +8449,7 @@ img {
   padding-top: 88px; }
   @media screen and (max-width: 36rem) {
     .intro {
-      padding-top: 78px;
-      padding-left: 0;
-      padding-right: 0; } }
+      padding-top: 78px; } }
 
 .intro::before {
   z-index: -1;
@@ -8657,7 +8655,7 @@ img {
   @media screen and (max-width: 62rem) {
     .advantages {
       flex-wrap: wrap;
-      margin-bottom: 70px; } }
+      margin-bottom: 30px; } }
 
 .advantages__item {
   position: relative;
@@ -8680,10 +8678,17 @@ img {
       padding-left: 60px;
       font-size: 20px; } }
 
+@media screen and (max-width: 48rem) {
+  .advantages__list {
+    margin-bottom: 40px; } }
+
 .advantages__point {
   position: relative;
   padding-left: 29px;
   margin-bottom: 25px; }
+  @media screen and (max-width: 48rem) {
+    .advantages__point {
+      margin-bottom: 15px; } }
 
 .advantages__point::before {
   position: absolute;
@@ -8804,9 +8809,9 @@ img {
   @media screen and (max-width: 1405px) {
     .slick-next {
       left: 110px; } }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 376px) {
     .slick-next {
-      left: 240px; } }
+      left: 75%; } }
   @media screen and (max-width: 320px) {
     .slick-next {
       left: 215px; } }
@@ -8934,9 +8939,9 @@ img {
 
 .formale-next {
   left: 110px; }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 376px) {
     .formale-next {
-      left: 265px; } }
+      left: 75%; } }
   @media screen and (max-width: 320px) {
     .formale-next {
       left: 215px; } }
@@ -9451,6 +9456,10 @@ img {
 
 .modal .button--black {
   min-width: 330px; }
+  @media screen and (max-width: 36rem) {
+    .modal .button--black {
+      min-width: unset;
+      width: 100%; } }
 
 .button--black:hover {
   color: #ffffff;
