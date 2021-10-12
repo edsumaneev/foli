@@ -8418,13 +8418,13 @@ img {
     .social__link {
       margin-bottom: 0;
       margin-right: 20px; } }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 440px) {
     .social__link {
       margin-right: 10px; } }
 
 .social__link svg {
   fill: #3f3f3f; }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 440px) {
     .social__link svg {
       width: 14.5px;
       height: 14.5px; } }
@@ -8436,7 +8436,7 @@ img {
 .logo {
   z-index: 15;
   margin-right: 90px; }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 540px) {
     .logo {
       max-width: 99px;
       max-height: 19px; } }
@@ -8564,15 +8564,6 @@ img {
 
 .aboutbrand .list__item--width:nth-child(5n) {
   margin-right: 0; }
-
-.list__item::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 96px;
-  height: 2px;
-  background-color: #73877b; }
 
 .list__icon {
   position: absolute;
@@ -9166,14 +9157,11 @@ img {
   justify-content: space-between; }
   .scientific__container img {
     margin-bottom: 40px;
+    min-width: 500px;
     height: auto; }
   @media screen and (max-width: 62rem) {
     .scientific__container {
       flex-direction: column; } }
-
-@media screen and (max-width: 62rem) {
-  .scientific__imgmob {
-    display: none; } }
 
 .scientific__dsc {
   padding-left: 118px;
@@ -9313,7 +9301,7 @@ img {
       width: 141px; } }
 
 .distributor__text {
-  padding: 0 225px;
+  padding: 0 225px 0 30px;
   margin-top: 16px; }
   @media screen and (max-width: 62rem) {
     .distributor__text {
