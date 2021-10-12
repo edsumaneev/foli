@@ -9739,6 +9739,10 @@ img {
 
 .modal-dialog--quest {
   min-width: 700px; }
+  @media screen and (max-width: 1050px) {
+    .modal-dialog--quest {
+      min-width: 100%;
+      margin: 0; } }
 
 .modal__wrapper {
   display: flex;
