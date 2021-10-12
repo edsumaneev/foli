@@ -8449,7 +8449,8 @@ img {
   padding-top: 88px; }
   @media screen and (max-width: 36rem) {
     .intro {
-      padding-top: 78px; } }
+      padding-top: 78px;
+      background-color: #e2ae99; } }
 
 .intro::before {
   z-index: -1;
