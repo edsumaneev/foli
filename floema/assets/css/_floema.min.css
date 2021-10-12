@@ -8556,7 +8556,7 @@ img {
   @media screen and (max-width: 62rem) {
     .list__item--width {
       margin-right: 0;
-      margin-bottom: 30px;
+      margin-bottom: 0;
       max-width: unset; } }
 
 .ingredient .list__item:nth-child(3n) {
@@ -8660,12 +8660,25 @@ img {
       margin-bottom: 70px; } }
 
 .advantages__item {
+  position: relative;
   max-width: 387px; }
 
+.advantages__icon {
+  position: absolute;
+  top: -10px;
+  left: 0; }
+  .advantages__icon svg {
+    fill: #73877b; }
+
 .advantages__title {
+  padding-left: 80px;
   margin-bottom: 28px;
   color: #73877b;
   font-size: 24px; }
+  @media screen and (max-width: 62rem) {
+    .advantages__title {
+      padding-left: 60px;
+      font-size: 20px; } }
 
 .advantages__point {
   position: relative;
@@ -8791,6 +8804,9 @@ img {
   @media screen and (max-width: 1405px) {
     .slick-next {
       left: 110px; } }
+  @media screen and (max-width: 360px) {
+    .slick-next {
+      left: 240px; } }
   @media screen and (max-width: 320px) {
     .slick-next {
       left: 215px; } }
@@ -8918,6 +8934,9 @@ img {
 
 .formale-next {
   left: 110px; }
+  @media screen and (max-width: 360px) {
+    .formale-next {
+      left: 265px; } }
   @media screen and (max-width: 320px) {
     .formale-next {
       left: 215px; } }
@@ -9430,6 +9449,9 @@ img {
   max-width: 330px;
   background-color: transparent; }
 
+.modal .button--black {
+  min-width: 330px; }
+
 .button--black:hover {
   color: #ffffff;
   background-color: #e2ae99; }
@@ -9715,6 +9737,13 @@ img {
       min-width: 100%;
       margin: 0; } }
 
+.modal-dialog--quest {
+  min-width: 700px; }
+
+.modal__wrapper {
+  display: flex;
+  flex-direction: column; }
+
 .modal-header {
   align-items: flex-start;
   padding: 0;
@@ -9733,6 +9762,9 @@ img {
   @media screen and (max-width: 48rem) {
     .modal-body {
       flex-direction: column; } }
+
+.modal-body--quest {
+  flex-direction: column; }
 
 .modal__img {
   width: 40%;
@@ -9763,6 +9795,16 @@ img {
   margin-bottom: 0;
   line-height: 100%; }
 
+.title--modal {
+  font-size: 2.375rem; }
+  @media screen and (max-width: 75rem) {
+    .title--modal {
+      font-size: 1.75rem; } }
+  @media screen and (max-width: 36rem) {
+    .title--modal {
+      font-size: 1.125rem;
+      line-height: 120%; } }
+
 .modal__subtitle {
   margin-top: 15px;
   color: #73877b;
@@ -9783,3 +9825,6 @@ img {
   left: 5px;
   width: 1px;
   height: 1px; }
+
+.modal__group {
+  margin-bottom: 10px; }
