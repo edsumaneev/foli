@@ -8401,20 +8401,20 @@ img {
       right: 20px; } }
   @media screen and (max-width: 1482px) {
     .social {
-      right: 0; } }
+      right: 30px;
+      top: 30px;
+      flex-direction: row; } }
   @media screen and (max-width: 62rem) {
     .social {
       z-index: 25;
-      flex-direction: row;
       justify-content: center;
       right: 0;
-      left: 0;
-      top: 30px; } }
+      left: 0; } }
 
 .social__link {
   margin-bottom: 19px;
   font-size: 0; }
-  @media screen and (max-width: 62rem) {
+  @media screen and (max-width: 1482px) {
     .social__link {
       margin-bottom: 0;
       margin-right: 20px; } }
@@ -8526,6 +8526,15 @@ img {
     .list {
       margin-bottom: 40px; } }
 
+.modal .list {
+  justify-content: space-between;
+  margin-bottom: 0; }
+  @media screen and (max-width: 710px) {
+    .modal .list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; } }
+
 .list__item {
   position: relative;
   padding-top: 30px;
@@ -8538,12 +8547,23 @@ img {
       margin-bottom: 30px;
       max-width: unset; } }
 
+.modal .list__item {
+  margin-right: 10px;
+  margin-bottom: 0;
+  max-width: 17%; }
+  @media screen and (max-width: 710px) {
+    .modal .list__item {
+      max-width: 100%; } }
+
 .list__inner {
   margin-bottom: 20px;
   min-height: 72px; }
   @media screen and (max-width: 62rem) {
     .list__inner {
       min-height: 50px; } }
+
+.modal .list__inner {
+  min-height: 40px; }
 
 .aboutbrand .list__inner {
   margin-bottom: 0; }
@@ -8570,6 +8590,10 @@ img {
   left: 0; }
   .list__icon svg {
     fill: #73877b; }
+
+.modal .list__icon {
+  width: 45px;
+  height: 45px; }
 
 .list__title {
   padding-left: 80px;
@@ -9718,7 +9742,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 2%;
+  padding-top: 0;
   overflow-y: auto; }
   @media screen and (max-width: 1050px) {
     .modal {
@@ -9846,6 +9870,12 @@ img {
   left: 5px;
   width: 1px;
   height: 1px; }
+
+.list .modal__text {
+  padding-left: 0; }
+
+.list .modal__text::before {
+  display: none; }
 
 .modal__group {
   margin-bottom: 10px; }
