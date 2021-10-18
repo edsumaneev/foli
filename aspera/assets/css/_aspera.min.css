@@ -9273,7 +9273,9 @@ img {
       top: 175px; } }
   @media screen and (max-width: 62rem) {
     .social {
-      bottom: 230px;
+      position: relative;
+      bottom: 0;
+      right: 30px;
       top: unset; } }
 
 .social__item {
