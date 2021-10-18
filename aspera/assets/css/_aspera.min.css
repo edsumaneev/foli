@@ -8276,6 +8276,7 @@ html {
   overflow-x: hidden; }
 
 body {
+  position: relative;
   overflow-x: hidden;
   box-sizing: border-box;
   min-width: 320px;
@@ -8536,6 +8537,7 @@ img {
     .footer__link {
       margin-right: 20px; } }
 
+.footer__policy:hover,
 .footer__otherlink:hover,
 .footer__link:hover {
   color: #ffffff;
@@ -8554,6 +8556,10 @@ img {
 .footer__rights {
   color: #f6f9ff;
   text-align: center; }
+
+.footer__policy:hover {
+  color: #e2ceca;
+  transition: ease-in-out 0.3s; }
 
 .footer__others {
   display: flex;
@@ -9259,7 +9265,7 @@ img {
 
 .social {
   z-index: 3;
-  position: absolute;
+  position: fixed;
   right: 52px;
   top: 307px; }
   @media screen and (max-width: 1350px) {
@@ -9267,16 +9273,8 @@ img {
       top: 175px; } }
   @media screen and (max-width: 62rem) {
     .social {
-      display: none; } }
-
-.social--mobile {
-  display: none; }
-  @media screen and (max-width: 62rem) {
-    .social--mobile {
-      position: relative;
-      display: block;
-      right: 0;
-      top: 0; } }
+      bottom: 230px;
+      top: unset; } }
 
 .social__item {
   margin-bottom: 116px; }
@@ -9290,7 +9288,10 @@ img {
 .social__link {
   font-size: 0; }
   .social__link svg {
-    fill: #ffffff; }
+    fill: #4e282c; }
+  @media screen and (max-width: 62rem) {
+    .social__link svg {
+      fill: #ffffff; } }
 
 .social__link:hover svg {
   fill: #8d4048;
