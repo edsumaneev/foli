@@ -9055,8 +9055,7 @@ img {
   background: #fcf8f8; }
   @media screen and (max-width: 62rem) {
     .arrowup {
-      padding-bottom: 30px;
-      margin-top: 80px; } }
+      padding-bottom: 30px; } }
 
 .arrowup__link {
   display: inline-block;
@@ -9125,6 +9124,9 @@ img {
 
 .social--main {
   top: 307px; }
+  @media screen and (max-width: 62rem) {
+    .social--main {
+      top: unset; } }
 
 .social__item {
   margin-bottom: 75px; }
@@ -9137,6 +9139,9 @@ img {
 
 .social--main .social__item {
   margin-bottom: 116px; }
+  @media screen and (max-width: 62rem) {
+    .social--main .social__item {
+      margin-bottom: 20px; } }
 
 .social__link {
   font-size: 0; }
@@ -9860,24 +9865,50 @@ img {
 
 .contacts {
   margin-bottom: 75px; }
+  @media screen and (max-width: 62rem) {
+    .contacts {
+      margin-bottom: 45px; } }
 
 .contacts__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 110px; }
+  @media screen and (max-width: 62rem) {
+    .contacts__wrapper {
+      flex-direction: column;
+      margin-bottom: 34px; } }
 
 .contacts__address {
   margin-right: 160px;
   width: 25%; }
+  @media screen and (max-width: 62rem) {
+    .contacts__address {
+      margin-right: 0;
+      width: auto; } }
+  @media screen and (max-width: 36rem) {
+    .contacts__address {
+      margin-right: 0;
+      width: 100%; } }
 
 .contacts__map {
   position: relative;
   width: 75%;
   min-height: 960px; }
+  @media screen and (max-width: 62rem) {
+    .contacts__map {
+      width: 100%;
+      min-height: 500px; } }
 
 .contacts__inner {
   position: absolute; }
+  @media screen and (max-width: 62rem) {
+    .contacts__inner {
+      width: 100%;
+      height: 100%; }
+      .contacts__inner iframe {
+        width: 100%;
+        height: 100%; } }
 
 .contacts__post {
   display: flex;
@@ -9894,6 +9925,9 @@ img {
 
 .feedback__title {
   margin-bottom: 115px; }
+  @media screen and (max-width: 62rem) {
+    .feedback__title {
+      margin-bottom: 30px; } }
 
 .feedback__form {
   display: flex;
@@ -9931,12 +9965,25 @@ img {
 .feedback ::placeholder {
   color: #977777;
   font-size: 18px; }
+  @media screen and (max-width: 62rem) {
+    .feedback ::-moz-placeholder {
+      font-size: 16px; }
+    .feedback :-ms-input-placeholder {
+      font-size: 16px; }
+    .feedback ::placeholder {
+      font-size: 16px; } }
 
 .feedback__agree {
+  margin: 0 auto;
+  margin-bottom: 25px;
   color: #7a8184;
   font-size: 12px;
   line-height: 28px;
   cursor: pointer; }
+  @media screen and (max-width: 62rem) {
+    .feedback__agree {
+      padding-left: 50px;
+      padding-right: 50px; } }
 
 .feedback__agree input[type="checkbox"]:checked,
 .feedback__agree input[type="checkbox"]:not(:checked) {
@@ -9958,10 +10005,7 @@ img {
   left: 0px;
   top: 0px;
   width: 18px;
-  height: 18px;
-  border: 1px solid #e2ceca;
-  box-sizing: border-box;
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1); }
+  height: 18px; }
 
 .feedback__agree input[type="checkbox"]:checked + label:after,
 .feedback__agree input[type="checkbox"]:not(:checked) + label:after {
@@ -9971,7 +10015,7 @@ img {
   top: 3px;
   width: 12px;
   height: 12px;
-  background: #8d4048;
+  background: url("../img/icons/icon-tick.svg") no-repeat 50% 50%;
   transition: all 0.2s ease; }
 
 .feedback__agree input[type="checkbox"]:not(:checked) + label:after {
