@@ -8485,20 +8485,6 @@ img {
   border: none;
   background-color: transparent; }
 
-.header__search::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  top: 128px;
-  background: #e2ceca;
-  right: 10px; }
-
-.active.header__search::after {
-  width: 490px;
-  height: 1px;
-  transition: ease-in-out 0.8s; }
-
 .header__inpsearch.active {
   padding-left: 28px;
   padding-bottom: 0;
@@ -8508,7 +8494,9 @@ img {
   top: 59px;
   transition: all ease-in-out 0.3s;
   outline: none;
-  background: #fcf8f8; }
+  background: #fcf8f8;
+  border-top: 1px solid #e2ceca;
+  border-bottom: 1px solid #e2ceca; }
 
 .footer {
   padding: 60px 0;
@@ -9884,15 +9872,12 @@ ul.tabs__list {
   line-height: 20px;
   cursor: pointer; }
 
-.address__item ~ input[type="radio"]:checked {
-  background-color: red; }
-
 .checkbox input[type="checkbox"]:checked + label:before,
 .checkbox input[type="checkbox"]:not(:checked) + label:before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   width: 18px;
   height: 18px; }
 
@@ -9911,8 +9896,8 @@ ul.tabs__list {
 .checkbox input[type="checkbox"]:not(:checked) + label:after {
   content: "";
   position: absolute;
-  left: 4px;
-  top: 24px;
+  left: 3px;
+  top: 3px;
   width: 12px;
   height: 12px;
   background: url("../img/icons/icon-tick.svg") no-repeat 50% 50%;
