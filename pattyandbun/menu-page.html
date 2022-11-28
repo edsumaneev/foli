@@ -1,0 +1,2325 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Patty & Bun">
+        <meta name="author" content="Patty & Bun">
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+        <title>Меню | Patty &amp; Bun</title>
+        <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/_pattyandbun.min.css">
+
+    </head>
+    <body>
+<div id="overlay"></div>
+<header class="header wrapper">
+  <nav class="nav">
+    <div class="nav__inner">
+      <a class="nav__item nav__item--logo" href="index.html">Home
+        <!-- width="163" height="30" -->
+        <img src="assets/img/bg/logo.png" alt="Patty & Bun" width="163" height="30">
+      </a>
+      <p>
+        Уже 5 лет подаём качество
+      </p>
+    </div>
+    <div class="nav__inner nav__inner--contact social">
+      <a class="social__item" href="https://wa.me/79284336678">watsapp
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15.5638 2.93692C14.7744 2.14173 13.8349 1.5113 12.7998 1.08224C11.7647 0.653182 10.6547 0.43404 9.53417 0.437541C4.8375 0.437541 1.0148 4.26024 1.0148 8.96014C1.0148 10.4619 1.40825 11.9304 2.15322 13.2204L0.943848 17.6375L5.46207 16.4518C6.71118 17.1322 8.1107 17.4892 9.5331 17.4903H9.53632C14.233 17.4903 18.0589 13.6676 18.0589 8.96767C18.0618 7.84756 17.8427 6.73798 17.4142 5.70305C16.9858 4.66811 16.3565 3.72833 15.5628 2.93799L15.5638 2.93692ZM9.53632 16.0519C8.26692 16.0521 7.02082 15.7109 5.92862 15.064L5.66955 14.9092L2.9885 15.6112L3.70445 12.9978L3.53675 12.7291C2.82484 11.6012 2.44862 10.2939 2.45207 8.96014C2.45435 7.08114 3.20201 5.27979 4.53097 3.95144C5.85993 2.62308 7.66162 1.87624 9.54062 1.87482C11.4315 1.87482 13.2128 2.61442 14.549 3.95064C15.2085 4.60767 15.7311 5.38885 16.0869 6.24906C16.4426 7.10926 16.6244 8.03143 16.6216 8.96229C16.6184 12.8721 13.4407 16.0508 9.53632 16.0508V16.0519ZM13.4203 10.7446C13.2085 10.6371 12.1604 10.1233 11.9658 10.0523C11.7712 9.98139 11.6293 9.94484 11.4853 10.1598C11.3445 10.3716 10.9349 10.8521 10.8102 10.9962C10.6855 11.137 10.5619 11.1574 10.3501 11.0499C10.1383 10.9424 9.44925 10.7178 8.63655 9.99214C8.00445 9.42777 7.57552 8.72902 7.45082 8.51724C7.32612 8.30547 7.43685 8.18829 7.54542 8.08402C7.64325 7.98942 7.7572 7.83569 7.8647 7.71099C7.9722 7.58629 8.00552 7.49922 8.07647 7.35517C8.14742 7.21434 8.11302 7.08964 8.05927 6.98214C8.00552 6.87464 7.57875 5.82652 7.4046 5.39974C7.23367 4.98264 7.05522 5.04069 6.92407 5.03317C6.79937 5.02672 6.65855 5.02672 6.51772 5.02672C6.3769 5.02672 6.1447 5.08047 5.95012 5.29224C5.75555 5.50402 5.20407 6.02109 5.20407 7.06922C5.20407 8.11734 5.96625 9.12892 6.07375 9.27297C6.18125 9.41379 7.57552 11.567 9.71155 12.4883C10.2189 12.7065 10.6156 12.8377 10.9241 12.9387C11.4348 13.1 11.8981 13.0763 12.2647 13.0226C12.6742 12.9624 13.5246 12.5087 13.703 12.011C13.8815 11.5133 13.8815 11.0876 13.8277 10.9994C13.7772 10.9048 13.6364 10.8521 13.4214 10.7436L13.4203 10.7446Z" />
+          <defs>
+            <rect width="17.2" height="17.2" fill="white" transform="translate(0.899902 0.4375)" />
+          </defs>
+        </svg>
+      </a>
+      <div class="nav__connect">
+        <p>Whatsapp</p>
+        <a class="nav__phone" href="tel:+79284336678">+7 (928) 433-66-78</a>
+      </div>
+      <a class="nav__item btn" href="lk-page.html">Вход</a>
+    </div>
+  </nav>
+  <div class="mobmenu-logo">
+      <a class="mobmenu-logo__logo" href="index.html">Home
+        <!-- width="163" height="30" -->
+        <img src="assets/img/bg/logo.png" alt="Patty & Bun" width="163" height="30">
+      </a>
+    </div>
+  <div class="mobmenu">
+    <div class="mobmenu__inner">
+      <a class="mobmenu__item mobmenu__item--logo" href="index.html">Home
+        <!-- width="163" height="30" -->
+        <img src="assets/img/bg/logo.png" alt="Patty & Bun" width="163" height="30">
+      </a>
+      <p>
+        Уже 5 лет подаём качество
+      </p>
+    </div>
+    <ul class="mobmenu__list">
+      <li class="mobmenu__head">Наше меню</li>
+      <li>
+        <a class="mobmenu__link" href="#">Бургеры</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="#">Самосы</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="#">Закуски и соуса</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="#">Напитки</a>
+      </li>
+    </ul>
+    <ul class="mobmenu__list">
+      <li class="mobmenu__head">Клиентам</li>
+      <li>
+        <a class="mobmenu__link" href="meals-page.html">О нашей еде</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="about-page.html">О компании</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="supply-page.html">Доставка</a>
+      </li>
+      <li>
+        <a class="mobmenu__link" href="#">Контакты</a>
+      </li>
+    </ul>
+  </div>
+  <div class="hamburger">
+    <span></span>
+  </div>
+</header>
+<section class="calculate">
+  <div class="bg-img">
+    <img src="assets/img/bg/bg-mask.png" alt="" width="1920" height="4400">
+  </div>
+  <div class="breadcrumbs wrapper"><a class="breadcrumbs__link" href="index.html">Главная</a> - <span>Меню</span>
+  </div>
+
+  <div class="slider-nav">
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Крестный отец<span class="slider-nav__mark">NEW</span></h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">45 параллель</h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Эль чапо</h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Нордик</h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Четыри сыра</h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Биг-Бен</h2>
+    </div>
+    <div class="slider-nav__slide">
+      <h2 class="slider-nav__title">Атомный микроб</h2>
+    </div>
+  </div>
+
+  <div class="slider-for wrapper">
+
+    <!-- slide-01 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">490 ₽<span class="slider-for__weight">530 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/menu-page-slider01.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-02" name="radio-01" type="radio" checked>
+              <label for="radio-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-01" name="radio-01" type="radio">
+              <label for="radio-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-01-01" id="radio-01-01" type="radio" checked>
+              <label for="radio-01-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-01-01" id="radio-01-02" type="radio">
+              <label for="radio-01-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-01-01" id="radio-01-03" type="radio">
+              <label for="radio-01-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-01-01" id="radio-01-04" type="radio">
+              <label for="radio-01-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-09" type="checkbox">
+              <label for="check-09">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-10" type="checkbox">
+              <label for="check-10">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-11" type="checkbox">
+              <label for="check-11">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-12" type="checkbox">
+              <label for="check-12">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-13" type="checkbox" disabled>
+              <label for="check-13">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-14" type="checkbox">
+              <label for="check-14">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-15" type="checkbox">
+              <label for="check-15">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-16" type="checkbox">
+              <label for="check-16">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-17" type="checkbox">
+              <label for="check-17">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-18" type="checkbox">
+              <label for="check-18">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-19" type="checkbox" disabled>
+              <label for="check-19">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-20" type="checkbox">
+              <label for="check-20">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- slide-02 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">290 ₽<span class="slider-for__weight">130 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/meals-img02.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-04" name="radio-02" type="radio" checked>
+              <label for="radio-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-03" name="radio-02" type="radio">
+              <label for="radio-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-02-02" id="radio-02-01" type="radio" checked>
+              <label for="radio-02-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-02-02" id="radio-02-02" type="radio">
+              <label for="radio-02-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-02-02" id="radio-02-03" type="radio">
+              <label for="radio-02-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-02-02" id="radio-02-04" type="radio">
+              <label for="radio-02-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-27" type="checkbox">
+              <label for="check-27">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-28" type="checkbox">
+              <label for="check-28">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-29" type="checkbox">
+              <label for="check-29">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-30" type="checkbox">
+              <label for="check-30">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-31" type="checkbox" disabled>
+              <label for="check-31">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-32" type="checkbox">
+              <label for="check-32">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-33" type="checkbox">
+              <label for="check-33">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-34" type="checkbox">
+              <label for="check-34">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-35" type="checkbox">
+              <label for="check-35">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-36" type="checkbox">
+              <label for="check-36">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-37" type="checkbox" disabled>
+              <label for="check-37">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-38" type="checkbox">
+              <label for="check-38">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- slide-03 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">590 ₽<span class="slider-for__weight">350 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/meals-img01.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-06" name="radio-03" type="radio" checked>
+              <label for="radio-06">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-05" name="radio-03" type="radio">
+              <label for="radio-05">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-03-03" id="radio-03-01" type="radio" checked>
+              <label for="radio-03-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-03-03" id="radio-03-02" type="radio">
+              <label for="radio-03-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-03-03" id="radio-03-03" type="radio">
+              <label for="radio-03-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-03-03" id="radio-03-04" type="radio">
+              <label for="radio-03-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-46" type="checkbox">
+              <label for="check-46">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-47" type="checkbox">
+              <label for="check-47">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-48" type="checkbox">
+              <label for="check-48">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-49" type="checkbox">
+              <label for="check-49">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-50" type="checkbox" disabled>
+              <label for="check-50">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-51" type="checkbox">
+              <label for="check-51">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-52" type="checkbox">
+              <label for="check-52">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-53" type="checkbox">
+              <label for="check-53">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-54" type="checkbox">
+              <label for="check-54">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-55" type="checkbox">
+              <label for="check-55">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-56" type="checkbox" disabled>
+              <label for="check-56">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-57" type="checkbox">
+              <label for="check-57">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- slide-04 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">290 ₽<span class="slider-for__weight">830 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/menu-page-slider01.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-14" name="radio-04" type="radio" checked>
+              <label for="radio-14">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-13" name="radio-04" type="radio">
+              <label for="radio-13">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-04-04" id="radio-04-01" type="radio" checked>
+              <label for="radio-04-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-04-04" id="radio-04-02" type="radio">
+              <label for="radio-04-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-04-04" id="radio-04-03" type="radio">
+              <label for="radio-04-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" name="radio-04-04" id="radio-04-04" type="radio">
+              <label for="radio-04-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-63" type="checkbox">
+              <label for="check-63">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-64" type="checkbox">
+              <label for="check-64">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-65" type="checkbox">
+              <label for="check-65">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-66" type="checkbox">
+              <label for="check-66">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-67" type="checkbox" disabled>
+              <label for="check-67">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-68" type="checkbox">
+              <label for="check-68">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-69" type="checkbox">
+              <label for="check-69">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-70" type="checkbox">
+              <label for="check-70">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-71" type="checkbox">
+              <label for="check-71">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-72" type="checkbox">
+              <label for="check-72">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="" data-descr="" data-pr="">
+              <input class="ingredient__checkbox" id="check-73" type="checkbox" disabled>
+              <label for="check-73">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-74" type="checkbox">
+              <label for="check-74">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- slide-05 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">190 ₽<span class="slider-for__weight">930 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/menu-page-slider01.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-07" name="radio-06" type="radio" checked>
+              <label for="radio-07">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-12" name="radio-06" type="radio">
+              <label for="radio-12">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-05-05" id="radio-05-01" type="radio" checked>
+              <label for="radio-05-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-05-05" id="radio-05-02" type="radio">
+              <label for="radio-05-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-05-05" id="radio-05-03" type="radio">
+              <label for="radio-05-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-05-05" id="radio-05-04" type="radio">
+              <label for="radio-05-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-79" type="checkbox">
+              <label for="check-79">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-80" type="checkbox">
+              <label for="check-80">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-81" type="checkbox">
+              <label for="check-81">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-82" type="checkbox">
+              <label for="check-82">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-83" type="checkbox" disabled>
+              <label for="check-83">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-84" type="checkbox">
+              <label for="check-84">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-85" type="checkbox">
+              <label for="check-85">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-86" type="checkbox">
+              <label for="check-86">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-87" type="checkbox">
+              <label for="check-87">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-88" type="checkbox">
+              <label for="check-88">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-89" type="checkbox" disabled>
+              <label for="check-89">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-90" type="checkbox">
+              <label for="check-90">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- slide-06 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">400 ₽<span class="slider-for__weight">230 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/meals-img02.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-09" name="radio-08" type="radio" checked>
+              <label for="radio-09">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Чёрная булочка" data-descr="<br/>Мягкая, только из печи!"
+              data-pr="<hr/>+10 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-08" name="radio-08" type="radio">
+              <label for="radio-08">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-06-06" id="radio-06-01" type="radio" checked>
+              <label for="radio-06-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-06-06" id="radio-06-02" type="radio">
+              <label for="radio-06-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-06-06" id="radio-06-03" type="radio">
+              <label for="radio-06-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-06-06" id="radio-06-04" type="radio">
+              <label for="radio-06-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-95" type="checkbox">
+              <label for="check-95">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-96" type="checkbox">
+              <label for="check-96">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-97" type="checkbox">
+              <label for="check-97">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-98" type="checkbox">
+              <label for="check-98">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-99" type="checkbox" disabled>
+              <label for="check-99">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-100" type="checkbox">
+              <label for="check-100">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-101" type="checkbox">
+              <label for="check-101">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-102" type="checkbox">
+              <label for="check-102">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-103" type="checkbox">
+              <label for="check-103">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-104" type="checkbox">
+              <label for="check-104">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-105" type="checkbox" disabled>
+              <label for="check-105">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select" title="Соуса" data-descr="<br/>Все соусы готовим сами"
+              data-pr="<hr/>+20 рублей &nbsp; 5 гр">
+              <input class="ingredient__checkbox" id="check-106" type="checkbox">
+              <label for="check-106">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- slide-07 -->
+    <div class="slider-for__slide">
+      <div class="slider-for__wrapper">
+        <div class="slider-for__inner">
+          <div>
+            <h2 class="title slider-for__title">222 ₽<span class="slider-for__weight">333 грамм</span></h2>
+            <p class="slider-for__component">
+              Состав бургера: <span>Булочка, Говяжая котлета, Сыр, Соус 1000 островов, Лук</span>
+            </p>
+          </div>
+          <ul class="calories">
+            <li class="calories__item">
+              <p>Калории</p>
+              <p class="calories__vol">847</p>
+            </li>
+            <li class="calories__item">
+              <p>Белки</p>
+              <p class="calories__vol">40,2</p>
+            </li>
+            <li class="calories__item">
+              <p>Жиры</p>
+              <p class="calories__vol">58,4</p>
+            </li>
+            <li class="calories__item">
+              <p>Углеводы</p>
+              <p class="calories__vol">50,6</p>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-for__img">
+          <!-- width="598" height="491" -->
+          <img src="assets/img/bg/meals-img01.png" alt="" width="598" height="491">
+        </div>
+        <form class="ingredient">
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор булочки</h3>
+            <p class="ingredient__subtitle">Шаг 1/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Белая булочка" data-descr="<br/>Мягкая булочка только из печи!"
+              data-pr="<hr/>+20 рублей &nbsp; 50 гр">
+              <input class="ingredient__checkbox" id="radio-11" name="radio-10" type="radio" checked>
+              <label for="radio-11">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-02.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="radio-10" name="radio-10" type="radio" disabled>
+              <label for="radio-10">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-01.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Выбор котлеты*</h3>
+            <p class="ingredient__subtitle">Шаг 2/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select" title="Котлета из говядины"
+              data-descr="<br/>мы используем мраморную говядину Герефорд" data-pr="<hr/>+50 рублей &nbsp; 30 гр">
+              <input class="ingredient__checkbox" name="radio-07-07" id="radio-07-01" type="radio" checked>
+              <label for="radio-07-01">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-03.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" name="radio-07-07" id="radio-07-02" type="radio" disabled>
+              <label for="radio-07-02">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-04.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" name="radio-07-07" id="radio-07-03" type="radio" disabled>
+              <label for="radio-07-03">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-05.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" name="radio-07-07" id="radio-07-04" type="radio" disabled>
+              <label for="radio-07-04">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-06.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__header">
+            <h3 class="ingredient__title">Дополнительные ингредиенты</h3>
+            <p class="ingredient__subtitle">Шаг 3/3</p>
+          </div>
+          <div class="ingredient__row">
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-111" type="checkbox" disabled>
+              <label for="check-111">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-07.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-112" type="checkbox" disabled>
+              <label for="check-112">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-08.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-113" type="checkbox" disabled>
+              <label for="check-113">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-09.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-114" type="checkbox" disabled>
+              <label for="check-114">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-10.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-115" type="checkbox" disabled>
+              <label for="check-115">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-11.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-116" type="checkbox" disabled>
+              <label for="check-116">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-12.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-117" type="checkbox" disabled>
+              <label for="check-117">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-118" type="checkbox" disabled>
+              <label for="check-118">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-119" type="checkbox" disabled>
+              <label for="check-119">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-15.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-120" type="checkbox" disabled>
+              <label for="check-120">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-16.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-121" type="checkbox" disabled>
+              <label for="check-121">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-14.png" alt="" width="27" height="22">
+              </label>
+            </div>
+            <div class="ingredient__select">
+              <input class="ingredient__checkbox" id="check-122" type="checkbox" disabled>
+              <label for="check-122">
+                <img class="ingredient__img" src="assets/img/bg/ingredient-img-13.png" alt="" width="27" height="22">
+              </label>
+            </div>
+          </div>
+          <div class="ingredient__action">
+            <div class="counter">
+              <span class="counter__decrease">-</span>
+              <input class="counter__input" type="text" value="1" size="200" />
+              <span class="counter__increase">+</span>
+            </div>
+            <button class="btn btn--invert" type="submit">В корзину</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- END slide -->
+
+  </div>
+  <div class="calculate__rel">
+    <div class="slick-prev">
+      <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0.646446 3.64644C0.451183 3.84171 0.451183 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.73079 4.34027 7.73079 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82842L1.70711 4L4.53553 1.17157C4.7308 0.976308 4.7308 0.659726 4.53553 0.464464C4.34027 0.269201 4.02369 0.269201 3.82843 0.464464L0.646446 3.64644ZM33 3.5L1 3.5L1 4.5L33 4.5L33 3.5Z" />
+      </svg>
+    </div>
+    <div class="slick-next">
+      <svg width="33" height="8" viewBox="0 0 33 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M32.3536 4.35355C32.5488 4.15829 32.5488 3.84171 32.3536 3.64645L29.1716 0.464466C28.9763 0.269204 28.6597 0.269204 28.4645 0.464466C28.2692 0.659728 28.2692 0.976311 28.4645 1.17157L31.2929 4L28.4645 6.82843C28.2692 7.02369 28.2692 7.34027 28.4645 7.53553C28.6597 7.7308 28.9763 7.7308 29.1716 7.53553L32.3536 4.35355ZM0 4.5H32V3.5H0V4.5Z" />
+      </svg>
+    </div>
+    <!-- общее число страниц слайдера -->
+    <div class="calculate__counter">
+      <span id="cp">1</span><span class="intro__total">/ 7</span>
+    </div>
+  </div>
+</section>
+<main class="menu">
+
+  <div class="menu__wrapper wrapper">
+    <aside class="menu__aside">
+      <ul class="menu__anchors">
+        <li>
+          <a href="#snacks" class="menu__item">Снэки</a>
+        </li>
+        <li>
+          <a href="#samosa" class="menu__item">Самосы</a>
+        </li>
+        <li>
+          <a href="#sauce" class="menu__item">Соуса</a>
+        </li>
+        <li>
+          <a href="#drink" class="menu__item">Напитки</a>
+        </li>
+      </ul>
+    </aside>
+
+    <div class="goods menu__goods">
+      <div id="snacks"></div>
+      <ul class="goods__list">
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Картофель фри</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img04.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Картофельные дольки</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img05.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Чесночные гренки</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img06.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Сырные треугольники</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img07.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Луковые кольца</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img08.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Куриные наггетсы</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img09.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Королевские креветки</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img10.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Куриные крылышки в остром соусе</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img11.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Куриные крылышки в азиатском соусе</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img12.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex">
+            <h4 class="goods__title">Куриные крылышки в соусе Том-Ям </h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__img">
+              <!-- width="218" height="180" -->
+              <img src="assets/img/bg/goods-img13.png" alt="" width="218" height="180">
+            </div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- group-2 -->
+      <div id="samosa"></div>
+      <ul class="goods__list">
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-01.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Картофель фри</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-02.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Красивый шампиньон</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-03.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Греческий</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-04.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Аджапсандал</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-05.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Палермо</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-06.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Веган</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__wrapper">
+            <div class="goods__img goods__img--wide">
+              <div class="goods__overlay goods__overlay--revers"></div>
+              <!-- width="270" height="222" -->
+              <img src="assets/img/bg/goods-img-wide-07.png" alt="" width="270" height="222">
+            </div>
+          </div>
+          <div class="goods__flex goods__flex--abs">
+            <h4 class="goods__title">Сыр со шпинатом</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__inner">
+              <div class="goods__overlay"></div>
+              <p class="goods__text">
+                Классический бургер с мраморной говядиной, в котором рубленая котлета сочетается со свежим помидором,
+                маринованным огурцом и сыром чеддер.
+              </p>
+            </div>
+            <a class="link goods__link" href="#">Читать полностью</a>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- group-3 -->
+      <div id="sauce"></div>
+      <ul class="goods__list">
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Соус 1</h4>
+            <span class="goods__mark">NEW</span>
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- group-3 -->
+      <div id="drink"></div>
+      <ul class="goods__list goods__list--noborder">
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Кока Кола (классик)</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item goods__item--width">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Кока-Кола (zero)</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+        <li class="goods__item">
+          <div class="goods__flex goods__flex--margin">
+            <h4 class="goods__title">Фьюзти</h4>
+            <!-- <span class="goods__mark">NEW</span> -->
+          </div>
+          <div>
+            <div class="goods__flex goods__flex--type2">
+              <p class="goods__cost">290 Р</p><span>430 грамм</span>
+            </div>
+            <div class="goods__action">
+              <div class="counter">
+                <span class="counter__decrease">-</span>
+                <input class="counter__input" type="text" value="1" size="200" />
+                <span class="counter__increase">+</span>
+              </div>
+              <a class="btn btn--goods" href="#">В корзину</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="menu__sidebar">
+      <a class="menu__cart" href="#">
+        <span class="menu__counter">0</span>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M18.399 6.99999H13.392L11.58 8.81199C11.3577 9.03526 11.0934 9.21227 10.8023 9.33276C10.5112 9.45325 10.1991 9.51485 9.884 9.51399C9.242 9.51399 8.64 9.26399 8.186 8.81099C7.9628 8.58881 7.78577 8.32465 7.66512 8.03374C7.54446 7.74283 7.48257 7.43093 7.483 7.11599C7.483 7.07699 7.493 7.03899 7.494 6.99999H1.6C1.44087 6.99999 1.28826 7.0632 1.17574 7.17573C1.06321 7.28825 1 7.44086 1 7.59999V9.99999H19V7.59999C19 7.52111 18.9844 7.44301 18.9542 7.37015C18.924 7.29729 18.8797 7.2311 18.8239 7.17537C18.7681 7.11964 18.7018 7.07547 18.6289 7.04537C18.556 7.01528 18.4779 6.99986 18.399 6.99999ZM10.768 7.99899L15.823 2.94399C15.8789 2.8884 15.9233 2.82233 15.9537 2.74956C15.9841 2.67679 15.9998 2.59875 16 2.5199C16.0002 2.44105 15.9848 2.36294 15.9548 2.29003C15.9248 2.21712 15.8807 2.15084 15.825 2.09499L14.905 1.17499C14.792 1.06275 14.6392 0.999756 14.48 0.999756C14.3208 0.999756 14.168 1.06275 14.055 1.17499L9 6.23099C8.76555 6.46544 8.63383 6.78342 8.63383 7.11499C8.63383 7.44655 8.76555 7.76454 9 7.99899C9.23445 8.23344 9.55244 8.36515 9.884 8.36515C10.2156 8.36515 10.5335 8.23344 10.768 7.99899ZM3.823 17.271C3.92 17.672 4.338 18 4.75 18H15.25C15.662 18 16.08 17.672 16.177 17.271L17.7 11H2.3L3.823 17.271Z" />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="delivery wrapper">
+    <h1 class="title delivery__title">Бесплатная доставка еды домой и в офис</h1>
+    <p class="delivery__paragraph">
+      Представьте, что специально для вас трудятся квалифицированные повара. Они замешивают душистое тесто, делают
+      оригинальные соусы. Изысканные десерты, закуски становятся шедеврами в руках настоящих мастеров. Вы можете
+      попробовать новое блюдо или заказать что-то традиционное. Совсем не обязательно искать поваренную книгу, хорошее
+      заведение рядом с домом или работой. Идеальный обед, перекус или ужин гораздо ближе, чем вы думаете.
+    </p>
+    <p class="delivery__paragraph delivery__paragraph--margin">
+      Доставка еды — это самый удобный способ попробовать блюда разных кухонь мира быстро и без хлопот, ведь Dostaевский
+      привозит заказы 24 часа 7 дней в неделю. Термосумка сохраняет тепло горячих блюд, поддерживает оптимальную
+      температуру для прохладительных напитков. Вы получаете именно то, что заказывали, всё свежее, горячее и
+      аппетитное. Где заказать еду с бесплатной доставкой? Выбор очевиден! В меню Dostaевского:
+    </p>
+    <a class="btn" href="#">Открыть полностью</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__row">
+    <div>
+      <a class="footer__logo" href="index.html">Home
+        <!-- width="163" height="30" -->
+        <img src="assets/img/bg/logo.png" alt="Patty & Bun" width="163" height="30">
+      </a>
+      <p class="footer__text footer__text--yellow">Время работы:</p>
+      <p class="footer__text footer__text--margin">Ежедневно 12:00 - 23:00</p>
+      <p class="footer__text footer__text--yellow">Ждём в гости:</p>
+      <p class="footer__text">Кранодар, ул. Красноармейская 73</p>
+    </div>
+    <div class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__head">Наше меню</li>
+        <li>
+          <a class="footer__link" href="meals-page.html">Бургеры</a>
+        </li>
+        <li>
+          <a class="footer__link" href="meals-page.html">Самосы</a>
+        </li>
+        <li>
+          <a class="footer__link" href="meals-page.html">Закуски и соуса</a>
+        </li>
+        <li>
+          <a class="footer__link" href="meals-page.html">Напитки</a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__head">Клиентам</li>
+        <li>
+          <a class="footer__link" href="meals-page.html">О нашей еде</a>
+        </li>
+        <li>
+          <a class="footer__link" href="about-page.html">О компании</a>
+        </li>
+        <li>
+          <a class="footer__link" href="supply-page.html">Доставка</a>
+        </li>
+        <li>
+          <a class="footer__link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <a class="footer__phone" href="tel:+79284336678">+7 (928) 433-66-78</a>
+      <a class="footer__mail" href="mailto:info@pattyandbun.ru">info@pattyandbun.ru</a>
+    </div>
+  </div>
+  <div class="footer__row footer__row--bordered">
+    <div class="footer__inner">
+      <p class="footer__copyright">ⓒ 2017-2022</p>
+      <p class="footer__copyright">Сайт разработан <a class="footer__copyright footer__copyright--link"
+          href="#">CrazyStudio</a></p>
+    </div>
+    <div class="social">
+      <a class="social__item" href="#">instagr
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8 0C5.829 0 5.556 0.01 4.703 0.048C3.85 0.088 3.269 0.222 2.76 0.42C2.22609 0.620819 1.74249 0.935826 1.343 1.343C0.936076 1.7427 0.621107 2.22624 0.42 2.76C0.222 3.268 0.087 3.85 0.048 4.7C0.01 5.555 0 5.827 0 8.001C0 10.173 0.01 10.445 0.048 11.298C0.088 12.15 0.222 12.731 0.42 13.24C0.625 13.766 0.898 14.212 1.343 14.657C1.787 15.102 2.233 15.376 2.759 15.58C3.269 15.778 3.849 15.913 4.701 15.952C5.555 15.99 5.827 16 8 16C10.173 16 10.444 15.99 11.298 15.952C12.149 15.912 12.732 15.778 13.241 15.58C13.7746 15.3791 14.2578 15.0641 14.657 14.657C15.102 14.212 15.375 13.766 15.58 13.24C15.777 12.731 15.912 12.15 15.952 11.298C15.99 10.445 16 10.173 16 8C16 5.827 15.99 5.555 15.952 4.701C15.912 3.85 15.777 3.268 15.58 2.76C15.3789 2.22623 15.0639 1.74268 14.657 1.343C14.2576 0.935676 13.774 0.620645 13.24 0.42C12.73 0.222 12.148 0.087 11.297 0.048C10.443 0.01 10.172 0 7.998 0H8.001H8ZM7.283 1.442H8.001C10.137 1.442 10.39 1.449 11.233 1.488C12.013 1.523 12.437 1.654 12.719 1.763C13.092 1.908 13.359 2.082 13.639 2.362C13.919 2.642 14.092 2.908 14.237 3.282C14.347 3.563 14.477 3.987 14.512 4.767C14.551 5.61 14.559 5.863 14.559 7.998C14.559 10.133 14.551 10.387 14.512 11.23C14.477 12.01 14.346 12.433 14.237 12.715C14.1087 13.0624 13.904 13.3764 13.638 13.634C13.358 13.914 13.092 14.087 12.718 14.232C12.438 14.342 12.014 14.472 11.233 14.508C10.39 14.546 10.137 14.555 8.001 14.555C5.865 14.555 5.611 14.546 4.768 14.508C3.988 14.472 3.565 14.342 3.283 14.232C2.9355 14.1039 2.62113 13.8996 2.363 13.634C2.09675 13.376 1.89172 13.0617 1.763 12.714C1.654 12.433 1.523 12.009 1.488 11.229C1.45 10.386 1.442 10.133 1.442 7.996C1.442 5.86 1.45 5.608 1.488 4.765C1.524 3.985 1.654 3.561 1.764 3.279C1.909 2.906 2.083 2.639 2.363 2.359C2.643 2.079 2.909 1.906 3.283 1.761C3.565 1.651 3.988 1.521 4.768 1.485C5.506 1.451 5.792 1.441 7.283 1.44V1.442ZM12.271 2.77C12.1449 2.77 12.0201 2.79483 11.9036 2.84308C11.7872 2.89132 11.6813 2.96203 11.5922 3.05118C11.503 3.14032 11.4323 3.24615 11.3841 3.36262C11.3358 3.4791 11.311 3.60393 11.311 3.73C11.311 3.85607 11.3358 3.9809 11.3841 4.09738C11.4323 4.21385 11.503 4.31968 11.5922 4.40882C11.6813 4.49797 11.7872 4.56868 11.9036 4.61692C12.0201 4.66517 12.1449 4.69 12.271 4.69C12.5256 4.69 12.7698 4.58886 12.9498 4.40882C13.1299 4.22879 13.231 3.98461 13.231 3.73C13.231 3.47539 13.1299 3.23121 12.9498 3.05118C12.7698 2.87114 12.5256 2.77 12.271 2.77ZM8.001 3.892C7.45607 3.8835 6.91489 3.98349 6.40898 4.18614C5.90306 4.3888 5.44251 4.69007 5.05415 5.07242C4.66579 5.45478 4.35736 5.91057 4.14684 6.41326C3.93632 6.91595 3.8279 7.4555 3.8279 8.0005C3.8279 8.5455 3.93632 9.08505 4.14684 9.58774C4.35736 10.0904 4.66579 10.5462 5.05415 10.9286C5.44251 11.3109 5.90306 11.6122 6.40898 11.8149C6.91489 12.0175 7.45607 12.1175 8.001 12.109C9.07954 12.0922 10.1082 11.6519 10.865 10.8833C11.6217 10.1146 12.0459 9.07917 12.0459 8.0005C12.0459 6.92183 11.6217 5.88641 10.865 5.11775C10.1082 4.34909 9.07954 3.90883 8.001 3.892ZM8.001 5.333C8.70833 5.333 9.38669 5.61399 9.88685 6.11415C10.387 6.61431 10.668 7.29267 10.668 8C10.668 8.70733 10.387 9.38569 9.88685 9.88585C9.38669 10.386 8.70833 10.667 8.001 10.667C7.29367 10.667 6.61531 10.386 6.11515 9.88585C5.61499 9.38569 5.334 8.70733 5.334 8C5.334 7.29267 5.61499 6.61431 6.11515 6.11415C6.61531 5.61399 7.29367 5.333 8.001 5.333Z" />
+        </svg>
+      </a>
+      <a class="social__item" href="https://wa.me/79284336678">watsapp
+        <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15.5638 2.93692C14.7744 2.14173 13.8349 1.5113 12.7998 1.08224C11.7647 0.653182 10.6547 0.43404 9.53417 0.437541C4.8375 0.437541 1.0148 4.26024 1.0148 8.96014C1.0148 10.4619 1.40825 11.9304 2.15322 13.2204L0.943848 17.6375L5.46207 16.4518C6.71118 17.1322 8.1107 17.4892 9.5331 17.4903H9.53632C14.233 17.4903 18.0589 13.6676 18.0589 8.96767C18.0618 7.84756 17.8427 6.73798 17.4142 5.70305C16.9858 4.66811 16.3565 3.72833 15.5628 2.93799L15.5638 2.93692ZM9.53632 16.0519C8.26692 16.0521 7.02082 15.7109 5.92862 15.064L5.66955 14.9092L2.9885 15.6112L3.70445 12.9978L3.53675 12.7291C2.82484 11.6012 2.44862 10.2939 2.45207 8.96014C2.45435 7.08114 3.20201 5.27979 4.53097 3.95144C5.85993 2.62308 7.66162 1.87624 9.54062 1.87482C11.4315 1.87482 13.2128 2.61442 14.549 3.95064C15.2085 4.60767 15.7311 5.38885 16.0869 6.24906C16.4426 7.10926 16.6244 8.03143 16.6216 8.96229C16.6184 12.8721 13.4407 16.0508 9.53632 16.0508V16.0519ZM13.4203 10.7446C13.2085 10.6371 12.1604 10.1233 11.9658 10.0523C11.7712 9.98139 11.6293 9.94484 11.4853 10.1598C11.3445 10.3716 10.9349 10.8521 10.8102 10.9962C10.6855 11.137 10.5619 11.1574 10.3501 11.0499C10.1383 10.9424 9.44925 10.7178 8.63655 9.99214C8.00445 9.42777 7.57552 8.72902 7.45082 8.51724C7.32612 8.30547 7.43685 8.18829 7.54542 8.08402C7.64325 7.98942 7.7572 7.83569 7.8647 7.71099C7.9722 7.58629 8.00552 7.49922 8.07647 7.35517C8.14742 7.21434 8.11302 7.08964 8.05927 6.98214C8.00552 6.87464 7.57875 5.82652 7.4046 5.39974C7.23367 4.98264 7.05522 5.04069 6.92407 5.03317C6.79937 5.02672 6.65855 5.02672 6.51772 5.02672C6.3769 5.02672 6.1447 5.08047 5.95012 5.29224C5.75555 5.50402 5.20407 6.02109 5.20407 7.06922C5.20407 8.11734 5.96625 9.12892 6.07375 9.27297C6.18125 9.41379 7.57552 11.567 9.71155 12.4883C10.2189 12.7065 10.6156 12.8377 10.9241 12.9387C11.4348 13.1 11.8981 13.0763 12.2647 13.0226C12.6742 12.9624 13.5246 12.5087 13.703 12.011C13.8815 11.5133 13.8815 11.0876 13.8277 10.9994C13.7772 10.9048 13.6364 10.8521 13.4214 10.7436L13.4203 10.7446Z" />
+          <defs>
+            <rect width="17.2" height="17.2" fill="white" transform="translate(0.899902 0.4375)" />
+          </defs>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+<script src="assets/js/scripts.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Логистическая компания AKFA">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/img/favicons/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/img/favicons/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/libs.min.css">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	<title>Not found</title>
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <header class="header">
+    <div class="header__wrapper wrapper">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu__item menu__item--logo">
+            <div class="menu__link">
+              <img src="assets/img/bg/logo-red.webp" alt="Логистическая компания AKFA" width="167" height="21">
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html#log">Логистика</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html#advnt">Преимущества</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html#tariff">Тарифы</a>
+          </li>
+          <li class="menu__item menu__item--right">
+            <div class="menu__link menu__link--padding">
+              <a class="menu__phone" href="tel:8(800)2000158">8 (800) 200 01 58</a>
+            </div>
+            <p class="menu__mode">Работаем с 9.00 до 20.00</p>
+          </li>
+          <li>
+            <button class="btn popup-btn" data-element="popup-enter" type="button">
+              <span class="svg-icon-phone"></span>
+              Перезвоните мне
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <ul class="mobmenu">
+        <li>
+          <a class="mobmenu__link" href="index.html#log">Логистика</a>
+        </li>
+        <li>
+          <a class="mobmenu__link" href="index.html#advnt">Преимущества</a>
+        </li>
+        <li>
+          <a class="mobmenu__link" href="index.html#tariff">Тарифы</a>
+        </li>
+        <li>
+          <div class="mobmenu__link">
+            <a class="mobmenu__phone mobmenu__phone--white" href="tel:8(800)2000158">8 (800) 200 01 58</a>
+          </div>
+          <p class="mobmenu__mode mobmenu__mode--white">Работаем с 9.00 до 20.00</p>
+        </li>
+        <li>
+          <button class="btn popup-btn mobmenu__btn" data-element="popup-enter" type="button">
+            <span class="svg-icon-phone"></span>
+            Перезвоните мне
+          </button>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper breadcrumbs">
+    <a class="breadcrumbs__link" href="index.html">Главная</a><span class="breadcrumbs__last"> - Страница не
+      найдена</span>
+  </div>
+  <main class="wrapper">
+    <div class="page-404">
+      <h1 class="title title--404">404</h1>
+      <a class="btn" href="index.html">На главную страницу</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <nav class="nav wrapper">
+      <ul class="menu">
+        <li class="menu__item menu__item--logo">
+          <div class="menu__link">
+            <img src="assets/img/bg/logo-white.webp" alt="Логистическая компания AKFA" width="167" height="21">
+          </div>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="index.html#log">Логистика</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="index.html#advnt">Преимущества</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="index.html#tariff">Тарифы</a>
+        </li>
+        <li class="menu__item menu__item--right">
+          <div class="menu__link menu__link--padding">
+            <a class="menu__phone menu__phone--white" href="tel:8(800)2000158">8 (800) 200 01 58</a>
+          </div>
+          <p class="menu__mode">Работаем с 9.00 до 20.00</p>
+        </li>
+        <li>
+          <button class="btn popup-btn" data-element="popup-enter" type="button">
+            <span class="svg-icon-phone"></span>
+            Перезвоните мне
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <div class="copyright wrapper">
+      <a class="copyright__link" href="policy-page.html">Политика конфиденциальности</a>
+      <div>
+        <span class="copyright__text">Разработано в</span>
+        <a class="copyright__link" href="https://crazy.studio/" target="_blank">CrazyStudio</a>
+      </div>
+    </div>
+  </footer>
+  <!-- popup-overlay -->
+<div class="popup-overlay"></div>
+<!-- popup -->
+<div class="popup" id="popup-enter">
+  <span class="svg-close-icon close-popup"></span>
+  <form class="popup__form" enctype="multipart/form-data" method="post" id="form" onsubmit="send(event, 'send.php')">
+    <h2 class="popup__title">Заполните короткую форму и мы <span>перезвоним вам через пару минут</span></h2>
+    <div class="popup__row">
+      <p class="popup__label">Имя</p>
+      <input class="popup__input" placeholder="Сергей |" name="name" type="text" required>
+    </div>
+    <div class="popup__row">
+      <label class="popup__label" for="phone">Телефон</label>
+      <input class="popup__input" type="tel" name="tel" id="phone" placeholder="+7(___) ___-__-__" required>
+    </div>
+    <div class="popup__row">
+      <label class="popup__label" for="txtarea">Комментарий</label>
+      <textarea class="popup__textarea" name="text" id="txtarea" rows="3" cols="20"
+        placeholder="Например: как мне стартовать с вами максимально быстро :)"></textarea>
+    </div>
+    <div class="popup__row">
+      <input class="popup__agreement" type="checkbox" name="agreed" id="agreed" checked required>
+      <label for="agreed">Я согласен на обработку персональных данных</label>
+    </div>
+    <button class="btn popup__button" type="submit" id="popup-submit">
+      <span class="svg-icon-phone"></span>
+      Перезвоните мне
+    </button>
+  </form>
+</div>
+<!-- END popup -->
+  <script src="assets/js/libs.min.js"></script>
+  <script src="assets/js/main.min.js"></script>
+</body>
+
+</html>
