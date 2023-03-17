@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Психологическая консультация">
+  <meta name="keywords" content="Помощь психолога, психологическая консультация">
+  <!-- <link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml"> -->
+  <link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+  <link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <title>Страница не найдена!</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div id="overlay"></div>
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link--logo" href="index.html">Iliana Korovai</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="about.html">Обо мне</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="blog.html">Блог</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="mobmenu">
+          <li>
+            <a class="mobmenu__link mobmenu__link--logo" href="index.html">Iliana Korovai</a>
+          </li>
+          <li>
+            <a class="mobmenu__link" href="index.html">Главная</a>
+          </li>
+          <li>
+            <a class="mobmenu__link" href="about.html">Обо мне</a>
+          </li>
+          <li>
+            <a class="mobmenu__link" href="blog.html">Блог</a>
+          </li>
+          <li>
+            <a class="mobmenu__link" href="contact.html">Контакты</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main class="main wrapper">
+      <div class="page-404">
+        <h1 class="titles titles--404">404</h1>
+        <a class="btn" href="index.html">На главную страницу</a>
+      </div>
+    </main>
+    <footer class="footer">
+
+      <div class="wrapper">
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link menu__link--logo" href="index.html">Iliana Korovai</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="about.html">Обо мне</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="blog.html">Блог</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="contact.html">Контакты</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__item footer__item--btn">
+            <button class="btn popup-btn ui-button ui-widget ui-corner-al" data-element="popup-enter">Отправить мне
+              сообщение</button>
+          </li>
+          <!-- <li class="footer__item">
+        <a class="footer__link" href="doc-conf.html">Политика конфиденциальности</a>
+      </li> -->
+          <li class="footer__item">
+            <a class="footer__link" href="doc-oferta.html">Оферта</a>
+          </li>
+          <li class="footer__item">
+            <p class="footer__link footer__link--nohover"><span>&copy;</span> 2022</p>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </div>
+  <script>
+    // phpMailer Отправка данных на сервер
+    function send(event, php) {
+      console.log("Отправка запроса");
+      event.preventDefault ? event.preventDefault() : event.returnValue = false;
+      var req = new XMLHttpRequest();
+      req.open('POST', php, true);
+      req.onload = function () {
+        if (req.status >= 200 && req.status < 400) {
+          json = JSON.parse(this.response); // internet explorer 11
+          console.log(json);
+
+          // ЗДЕСЬ УКАЗЫВАЕМ ДЕЙСТВИЯ В СЛУЧАЕ УСПЕХА ИЛИ НЕУДАЧИ
+          if (json.result == "success") {
+            // Если сообщение отправлено
+            // alert("Сообщение отправлено");
+            $("#popup-enter").removeClass("active");
+            $("#popup-afterreg").addClass("active");
+          } else {
+            // Если произошла ошибка
+            alert("Ошибка. Сообщение не отправлено");
+          }
+          // Если не удалось связаться с php файлом
+        } else {
+          alert("Ошибка сервера. Номер: " + req.status);
+          // $("#popup-enter").removeClass("active");
+          // $("#popup-afterreg").addClass("active");
+        }
+      };
+
+      // Если не удалось отправить запрос. Стоит блок на хостинге
+      req.onerror = function () {
+        alert("Ошибка отправки запроса");
+      };
+      req.send(new FormData(event.target));
+    }
+  </script>
+
+</body>
+
+</html>
